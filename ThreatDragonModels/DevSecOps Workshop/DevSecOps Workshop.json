@@ -1165,6 +1165,55 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "SMTP",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "SMTP",
+              "isEncrypted": false,
+              "isPublicNetwork": true,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "1535523c-aafe-4653-8ed0-34c12c6bd198",
+            "source": {
+              "cell": "aa84dd35-e18c-406a-b381-6013ae27ff40"
+            },
+            "target": {
+              "cell": "2473affd-c8ed-44ce-8c42-e8c911326b8c"
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 100
+              },
+              {
+                "x": 370,
+                "y": 160
+              }
+            ],
+            "labels": [
+              "SMTP"
+            ]
+          },
+          {
             "shape": "trust-broundary-curve",
             "attrs": {
               "line": {
